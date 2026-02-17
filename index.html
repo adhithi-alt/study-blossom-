@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Study Blossom</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <body class="focus">
+
+
+  <h1>🌸 Study Blossom</h1>
+
+  <div id="mode">Focus Mode 🌸</div>
+
+  <div id="plant">🌱</div>
+
+  <div id="timer">25:00</div>
+
+  <div class="buttons">
+  <button onclick="startTimer()">Start</button>
+  <button onclick="stopTimer()">Stop</button>
+  <button onclick="resetTimer()">Reset</button>
+</div>
+
+
+  <div class="settings">
+  <p>Focus (min):
+    <input type="number" id="focusInput" value="25">
+  </p>
+  <p>Break (min):
+    <input type="number" id="breakInput" value="5">
+  </p>
+  <button onclick="applySettings()">Apply</button>
+</div>
+
+
+  <script src="renderer.js"></script>
+
+</body>
+</html>

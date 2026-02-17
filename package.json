@@ -1,0 +1,13 @@
+{
+  "name": "study-blossom",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+  "start": "electron ."
+},
+
+  "devDependencies": {
+    "electron": "^40.4.0"
+  }
+}
